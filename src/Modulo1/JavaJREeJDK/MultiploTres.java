@@ -6,5 +6,8 @@ public class MultiploTres {
         for (int multiploTres = 1; multiploTres <= 100; multiploTres++) {
             System.out.println(multiploTres * 3);
         }
+        /*for (int multiploTres = 1; multiploTres <= 100; multiploTres += 3) {
+            System.out.println(multiploTres);
+        }*/
     }
 }
