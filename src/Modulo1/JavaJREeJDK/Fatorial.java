@@ -9,7 +9,7 @@ public class Fatorial {
         {fatorial *= i;
             somaFatorial += fatorial;
             System.out.println("Fatorial de " + i + " = " + fatorial);
+            System.out.print("A soma de todos os 10 fatoriais é:" + somaFatorial);
         }
-        System.out.print("A soma de todos os 10 fatoriais é:" + somaFatorial);
     }
 }
