@@ -3,9 +3,13 @@ package Modulo1.JavaJREeJDK;
 public class Fatorial {
     public static void main(String[] args) {
         int fatorial = 1;
+        int somaFatorial = 0;
 
         for (int i = 1; i < 11; i++)
         {fatorial *= i;
-            System.out.println("Fatorial de " + i + " = " + fatorial); }
+            somaFatorial += fatorial;
+            System.out.println("Fatorial de " + i + " = " + fatorial);
+        }
+        System.out.print("A soma de todos os 10 fatoriais é:" + somaFatorial);
     }
 }
