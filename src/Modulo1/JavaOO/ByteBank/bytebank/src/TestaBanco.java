@@ -14,8 +14,8 @@ public class TestaBanco {
 		contaDoPaulo.deposita(100);
 
 		contaDoPaulo.setTitular(paulo);
-		System.out.println(contaDoPaulo.getTitular().getNome());
-		System.out.println(contaDoPaulo.getTitular());
+		//System.out.println(contaDoPaulo.getTitular().getNome());
+		//System.out.println(contaDoPaulo.getTitular());
 
 		Cliente camila = new Cliente();
 		camila.setNome("Camila Zelenovsky");
